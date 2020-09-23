@@ -1,0 +1,21 @@
+-------header---
+menu-icon search cosmos --on the left--
+nyt logo on the center 
+two buttons on the right
+
+--------main---------
+advert at top
+news-item {title, image , editor date social icons, story} 
+editors pick -rightside
+grid section
+video
+image
+button social icons
+more news related -leftside
+mostpopular - rightside
+banner- 
+
+--footer---
+logo
+6 columns
+inline footer
