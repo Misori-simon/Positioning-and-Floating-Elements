@@ -244,3 +244,43 @@ main {
     font-weight: bold;
     text-decoration: none;
 }
+
+.theory-of-inflation {
+    width: 55%;
+    margin: auto;
+    margin-top: 30px;
+}
+.theory-of-inflation p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+    color: #87898a;
+}
+
+.grid-container {
+    position: relative;
+}
+
+.grid-container figure {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+
+.grid-container figure img{
+    width: inherit;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 145px 155px 140px;
+    column-gap: 8px;
+}
+
+.container p {
+    font-size: 12px;
+    color: #000;
+}
