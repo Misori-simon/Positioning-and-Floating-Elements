@@ -16,6 +16,16 @@ body {
     margin: auto;
 }
 
+.btn {
+    background-color:  rgb(50, 104, 145);
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -59,17 +69,11 @@ header {
 .header-right {
     
 }
+
 .header-right button {
     padding: 8px 10px;
     margin-right: 5px;
-    background-color:  rgb(50, 104, 145);
-    color:white;
     font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    outline: none;
-    border-radius: 3px;
 }
 
 /* News story section styles */
@@ -106,7 +110,7 @@ main {
     align-items: center;
     margin-top: 10px;
 }
-.published-date{
+.date{
     color:  #87898a;
     font-size: 14px;
 }
@@ -299,6 +303,85 @@ p.inflation-authur {
     z-index: 10;
 }
 
+.news-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-btn {
+    padding: 10px 70px;
+    font-size: 12px;
+}
+
+.new-part-info .caption-text-sm {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.new-part-info a {
+    font-size: 13px;
+    color: #87898a;
+}
+
+.new-part-info a:hover {
+    text-decoration: none;
+}
+
+/* more news section styles */
+.other-news {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15%;
+}
+
+.more-news {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.popular-news {
+    flex: 1;
+}
+
+.more-news h3 {
+    margin: 10px 0;
+}
+
+.more-news-container{
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 50px 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.more-news-item img {
+    max-width: 100%;
+
+}
+
+.img-source {
+    font-size: 11px;
+    color: #a3a8ab;
+    float: right;
+    text-align: right;
+}
+
+.more-news-info {
+    margin-top: 15px;
+    clear: both;
+}
+
+.more-news-title {
+    font-size: 14px;
+}
+
+.more-news-title a{
+    color: #000;
+    text-decoration: none;
+    line-height: 19px;
+}
+
 /* must be down */
 
 .caption-text {
@@ -309,7 +392,6 @@ p.inflation-authur {
     color: #87898a;
     margin-bottom: 20px;
 }
-
 
 .caption-author {
     font-style: italic;
@@ -324,7 +406,6 @@ p.inflation-authur {
     color: #87898a;
     margin-bottom: 20px;
 }
-
 
 .caption-author-sm {
     font-style: italic;
