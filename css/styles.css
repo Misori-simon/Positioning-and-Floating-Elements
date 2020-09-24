@@ -178,6 +178,46 @@ main {
 .news-author a:hover {
     text-decoration: none;
 }
+/* editors picks styles */
+.editor-pick-right {
+    position: absolute;
+    top: 180%;
+    right: 14%;
+    width: 210px;
+}
+
+.editor-pick-right h3 {
+    border-bottom: 1px solid #a3a8ab;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.sm-card-container {
+    display: flex;
+    padding-top: 20px;
+}
+
+.sm-card-container figure {
+    flex: 1;
+}
+
+.sm-card-container figure img{
+    width: 100%;
+}
+
+.sm-card-container figcaption {
+    flex: 2;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.sm-card-container figcaption a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sm-card-container:hover figcaption a {
+    text-decoration: underline;
+}
 
 /* this is for the news parts */
 .news-part {
@@ -228,7 +268,6 @@ main {
 
 .subscribe::before {
     top: 0;
-    left:
 }
 
 .subscribe::after {
