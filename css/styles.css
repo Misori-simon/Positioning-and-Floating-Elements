@@ -6,6 +6,16 @@
     font-family: helvetica,arial,sans-serif;;
 }
 
+body {
+    height: 200vh;
+}
+
+/* General styles */
+.w-35 {
+    width: 35%;
+    margin: auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -50,7 +60,7 @@ header {
     
 }
 .header-right button {
-    padding: 5px;
+    padding: 8px 10px;
     margin-right: 5px;
     background-color:  rgb(50, 104, 145);
     color:white;
@@ -62,3 +72,115 @@ header {
     border-radius: 3px;
 }
 
+/* News story section styles */
+main {
+    padding-top: 40px;
+}
+
+.news-title {
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.cover-img {
+    width: 60%;
+    margin: auto;
+}
+
+.cover-img img {
+    width: 100%;
+    display: block;
+}
+
+.cover-img figcaption {
+    font-size: 14px;
+    width: 80%;
+    line-height: 20px;
+    padding-top: 8px;
+    color: #87898a;
+}
+
+.caption-author {
+    font-style: italic;
+    color: #a3a8ab;
+}
+
+/* news content styles */
+.news-content{
+    margin-top: 30px;
+}
+
+.news-date-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.published-date{
+    color:  #87898a;
+    font-size: 14px;
+}
+
+/* news content social share icons */
+.social-icons {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social:hover {
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+}
+
+.comment:hover .iconify, 
+.bookmark:hover .iconify {
+    color: #e2e2e2;
+}
+
+.social-icons figure {
+    margin-left: 10px;
+}
+
+.bookmark .iconify {
+    font-size: 30px;
+    color: #a3a8ab;
+}
+
+.comment {
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+}
+
+.comment .iconify {
+    font-size: 40px;
+    color: #a3a8ab;
+}
+
+.news-author,
+.news-author a{
+    color: #000;
+    font-weight: bold;
+}
+
+.news-author a:hover {
+    text-decoration: none;
+}
