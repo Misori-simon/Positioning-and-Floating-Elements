@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML form page 
+# News Article from NYT 
 
 ## Definition 
 
