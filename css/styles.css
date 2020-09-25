@@ -387,10 +387,14 @@ p.inflation-authur {
     padding-top: 20px;
 }
 
-.more-news-container{
+.news-grid{
     margin-top: 20px;
     display: grid;
     grid-gap: 50px 15px;
+    
+}
+
+.more-news-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
@@ -422,6 +426,11 @@ p.inflation-authur {
     line-height: 19px;
 }
 
+.editor-pick-container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
 .editor-pick {
     padding-top: 10px;
     margin-top: 10px;
@@ -445,7 +454,42 @@ p.inflation-authur {
     color:#a3a8ab;
 }
 
+/* 
+* This is for the foooter
+*/
+
+footer {
+    border: 1px solid red;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.foot-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-logo img {
+    width: 200px;
+}
+
+.foot-logo a {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* must be down */
+
 
 .caption-text {
     font-size: 14px;
