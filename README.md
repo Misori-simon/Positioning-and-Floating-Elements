@@ -51,11 +51,11 @@ The features of this project are listed as below:
 
 ## Authors
 
-👤 **Misori simon**
+👤 **Misori Simon**
 
   - GitHub: [Misori-simon](https://github.com/Misori-simon/)
-  - Twitter: [@Misori Simon_simon](https://twitter.com/misori_simon)
-  - LinkedIn: [LinkedIn](https://cm.linkedin.com/in/misori-simon-05906219b)
+  - Twitter: [@misori_simon](https://twitter.com/misori_simon)
+  - LinkedIn: [Misori Simon](https://cm.linkedin.com/in/misori-simon-05906219b)
 
 👤 **Dipesh Bajgain**
 
