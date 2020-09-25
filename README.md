@@ -36,7 +36,7 @@ The features of this project are listed as below:
 
 ## Live Demo
 
-[Live Demo Link](https://dipbazz.github.io/html-forms/)
+[Live Demo Link](https://misori-simon.github.io/Positioning-and-Floating-Elements/.)
 
 
 ## Getting Started
