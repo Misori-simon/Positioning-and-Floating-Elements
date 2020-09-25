@@ -88,7 +88,7 @@ main {
 }
 
 .cover-img {
-  width: 60%;
+  width: 1000px;
   margin: auto;
 }
 
@@ -166,7 +166,7 @@ main {
 /* editors picks styles */
 .editor-pick-right {
   position: absolute;
-  top: 215%;
+  top: 1640px;
   right: 14%;
   width: 210px;
 }
@@ -483,12 +483,43 @@ footer { margin: 0 15%; }
   padding: 15px 50px 25px;
   margin-top: 10px;
   border-top: 1px solid #d3d6d8;
+  margin-bottom: 50px;
 }
 
 .base-links a {
   font-size: 10px;
   color: #666;
   text-decoration: none;
+}
+
+/* fixed footer */
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #000;
+  background: #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.fixed-footer-text {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer-expand {
+  position: absolute;
+  right: 300px;
+  bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-expand span {
+  padding: 0 20px;
+  font-size: 11px;
 }
 
 /* links */
