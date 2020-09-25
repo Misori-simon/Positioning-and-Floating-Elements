@@ -28,10 +28,14 @@ body {
 }
 
 header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    background-color: #fff;
     padding: 10px 0px;
     
 }
@@ -79,7 +83,7 @@ header {
 
 /* News story section styles */
 main {
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .news-title {
@@ -220,10 +224,7 @@ main {
 }
 
 /* this is for the news parts */
-.news-part {
-    padding-top: 30px;
-    border:1px solid red;
-}
+.news-part { padding-top: 30px; }
 
 .news-part p { 
     color: #333;
@@ -302,7 +303,6 @@ main {
 .grid-container figure {
     width: 100%;
     margin-top: 10px;
-    border: 1px solid red;
 }
 
 .grid-container figure img{
@@ -458,11 +458,7 @@ p.inflation-authur {
 * This is for the foooter
 */
 
-footer {
-    border: 1px solid red;
-    max-width: 1100px;
-    margin: 0px 15%;
-}
+footer { margin: 0px 15%; }
 
 .homepage-link {
     color: rgb(50, 104, 145);
@@ -478,6 +474,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px double #d3d6d8;
+    padding-top: 15px;
 }
 
 .foot-logo img {
@@ -541,16 +539,25 @@ li.link-without-icon a {
     margin-bottom: 5px;
 }
 
+.base-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 25px;
+    margin-top: 10px;
+    border-top: 1px solid #d3d6d8;
+}
 
+.base-links a {
+    font-size: 10px;
+    color: #666;
+    text-decoration: none;
+}
 
-
-
-
-
-
+.base-links a:hover {
+    text-decoration: underline;
+}
 
 /* must be down */
-
 
 .caption-text {
     font-size: 14px;
