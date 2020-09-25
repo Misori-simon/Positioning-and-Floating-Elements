@@ -13,7 +13,7 @@ body {
 
 /* General styles */
 .w-35 {
-  width: 35%;
+  width: 600px;
   margin: auto;
 }
 
@@ -166,7 +166,7 @@ main {
 /* editors picks styles */
 .editor-pick-right {
   position: absolute;
-  top: 180%;
+  top: 215%;
   right: 14%;
   width: 210px;
 }
