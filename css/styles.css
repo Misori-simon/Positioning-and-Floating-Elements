@@ -163,41 +163,11 @@ main {
   font-weight: bold;
 }
 
-/* editors picks styles */
-.editor-pick-right {
-  position: absolute;
-  top: 1640px;
-  right: 14%;
-  width: 210px;
-}
-
-.editor-pick-right h3 {
-  border-bottom: 1px solid #a3a8ab;
-  padding-bottom: 10px;
-  font-size: 14px;
-}
-
-.sm-card-container {
-  display: flex;
-  padding-top: 20px;
-}
-
-.sm-card-container figure {
-  flex: 1;
-}
-
-.sm-card-container figure img {
-  width: 100%;
-}
-
-.sm-card-container div {
-  flex: 2;
-  font-size: 14px;
-  margin-left: 10px;
-}
-
 /* this is for the news parts */
-.news-part { padding-top: 30px; }
+.news-part {
+  position: relative;
+  padding-top: 30px;
+}
 
 .news-part p {
   color: #333;
@@ -258,6 +228,39 @@ main {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* editors picks styles */
+.editor-pick-right {
+  position: absolute;
+  top: 700px;
+  right: -260px;
+  max-width: 210px;
+}
+
+.editor-pick-right > h3 {
+  border-bottom: 1px solid #a3a8ab;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.sm-card-container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.sm-card-container figure {
+  flex: 1;
+}
+
+.sm-card-container figure img {
+  width: 100%;
+}
+
+.sm-card-container div {
+  flex: 2;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .theory-of-inflation {
@@ -527,6 +530,8 @@ footer { margin: 0 15%; }
 .sm-card-container div a {
   color: #333;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 15px;
 }
 
 .foot-link-grp li a {
